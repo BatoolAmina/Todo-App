@@ -49,6 +49,9 @@ createHTMLfromStorage();
                 html = '<tr><td colspan="5">No Tasks Added Yet</td></tr>';
             }
         }
+        else{
+                html = '<tr><td colspan="5">No Tasks Added Yet</td></tr>';
+        }
         $('#taskTableBody').html(html);
     }
     function markAsDone(index){
